@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="wildWeasel">
+      <UniqueIdentifier>{83ef2d30-c7d6-42ec-923b-84d912127254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="weaselLibrary">
+      <UniqueIdentifier>{9080c47a-30d0-4d7a-a4f2-42de831bc5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXTK11">
+      <UniqueIdentifier>{32a6805d-e805-43f6-8d89-f271e0e5d56b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sourcecode\resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="sourcecode\traga2_3D.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="sourcecode\traga2Class.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="sourcecode\traga2Win.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\DirectXTK11\DeviceResources.h">
+      <Filter>DirectXTK11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\DirectXTK11\pch.h">
+      <Filter>DirectXTK11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\DirectXTK11\StepTimer.h">
+      <Filter>DirectXTK11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\xml.h">
+      <Filter>weaselLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wildWeasel.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwAlignment.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwAnimation.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwEditField.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwListView.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwRotCtrlCube.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwTreeView.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\ww3D.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwExamples.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwFlipbook.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwGuiElement.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\wwMasterMind.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaselLibrary\wildWeasel\ssf_DXTK11\wwSsf.h">
+      <Filter>wildWeasel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sourcecode\traga2_3D.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcecode\traga2Class.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcecode\traga2Win.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\DirectXTK11\DeviceResources.cpp">
+      <Filter>DirectXTK11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\DirectXTK11\pch.cpp">
+      <Filter>DirectXTK11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\xml.cpp">
+      <Filter>weaselLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wildWeasel.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\ww3D.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwAlignment.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwAnimation.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwEditField.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwExamples.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwFlipBook.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwGuiElement.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwListView.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwRotCtrlCube.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwTreeView.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\wwMasterMind.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaselLibrary\wildWeasel\ssf_DXTK11\wwSsf.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sourcecode\Traga2Win.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
